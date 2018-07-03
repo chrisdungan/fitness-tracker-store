@@ -1,0 +1,17 @@
+.current-training {
+//    padding: 30px; 
+}
+
+$top-bg-image: url('../../../assets/images/header-bg.png');
+        
+.top-bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 225px;
+    background-image: $top-bg-image;
+    background-size: cover;
+    background-color: rgb(186, 216, 235);
+}

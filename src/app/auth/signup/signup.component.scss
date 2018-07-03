@@ -1,0 +1,41 @@
+/* #container {
+    display: flex;
+    width: 100%;
+    height: 500px;  // greater than sum of chilren
+    border: 1px solid black;
+    flex-direction: row; // defines the main axis->left to right
+    justify-content: center; // applies to main axis
+    align-items: center;     // applies to cross axis
+}
+.child {
+    width: 400px;
+    height: 400px;
+    // flex: 1;
+}
+#child1 {
+    background-color: red;
+    // flex: 2; 
+}
+#child2 {
+    background-color: green;
+}
+#child3 {
+    background-color: blue;
+}
+#child4 {
+    background-color: yellow;
+} */
+
+mat-form-field {
+    width: 300px;
+}
+
+.date-field {
+    margin-top: .9em;
+}
+
+.button-submit {
+    background-color: green;
+    margin-top: 1em;
+}
+

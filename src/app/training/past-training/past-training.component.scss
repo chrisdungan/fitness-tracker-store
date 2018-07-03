@@ -1,0 +1,32 @@
+        
+$top-bg-image: url('../../../assets/images/header-bg.png');
+        
+.top-bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 225px;
+    background-image: $top-bg-image;
+    background-size: cover;
+    background-color: rgb(186, 216, 235);
+}
+
+.orders-table {
+    flex: 1 1 auto;
+    border-top: 20px solid rgba(0, 0, 0, 0.01);
+    border-right: 20px solid rgba(0, 0, 0, 0.01);
+    border-left: 20px solid rgba(0, 0, 0, 0.01);
+    overflow: auto;
+}
+
+.orders-paginator {
+    flex: 1 1 auto;
+    border-right: 20px solid rgba(0, 0, 0, 0.01);
+    border-left: 20px solid rgba(0, 0, 0, 0.01);
+    overflow: auto;
+}
+
+
+  
